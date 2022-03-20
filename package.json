@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-urql",
+  "name": "nextjs-urql-contentful",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -46,19 +46,18 @@
   "description": "NextJs + Urql (Lightweight GraphQL Endpoint)",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Project-Setup/nextjs-urql.git"
+    "url": "git+ssh://git@github.com/Project-Setup/nextjs-urql-contentful.git"
   },
   "keywords": [
-    "frontend",
-    "website",
-    "rework",
     "nextjs",
-    "urql"
+    "urql",
+    "contentful",
+    "graphql"
   ],
-  "author": "Allio",
+  "author": "David Chen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Project-Setup/nextjs-urql/issues"
+    "url": "https://github.com/Project-Setup/nextjs-urql-contentful/issues"
   },
-  "homepage": "https://github.com/Project-Setup/nextjs-urql#readme"
+  "homepage": "https://github.com/Project-Setup/nextjs-urql-contentful#readme"
 }

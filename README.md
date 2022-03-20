@@ -1,6 +1,6 @@
-# NextJs + Urql
+# NextJs + Urql + Contentful
 
--   This project starter uses nextjs (v12.1.0) and urql (a lightweight graphql client).
+-   This project starter uses nextjs (v12.1.0) and urql (a lightweight graphql client) assuming Contentful as the core headless cms.
 
 ## Setup
 
