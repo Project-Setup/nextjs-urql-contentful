@@ -1,4 +1,6 @@
-schema: https://graphqlzero.almansi.me/api
+schema:
+  - schemaLoader:
+      loader: './lib/grpahql-codegen/schemaLoader.ts'
 documents: './graphql/**/*.graphql'
 generates:
   ./graphql/generated.ts:
@@ -8,3 +10,5 @@ generates:
       - typed-document-node
     config:
       fetcher: fetch
+require:
+  - '@swc/register'

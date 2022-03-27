@@ -1,0 +1,7 @@
+query GetPageSlugs($preview: Boolean = false) {
+  pageCollection(preview: $preview) {
+    items {
+      slug
+    }
+  }
+}

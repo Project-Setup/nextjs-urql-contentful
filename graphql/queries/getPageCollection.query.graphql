@@ -1,0 +1,37 @@
+query GetPageCollection(
+  $preview: Boolean = false
+  $pageTypeLimit: Int = 0
+  $pageContentLimit: Int = 0
+) {
+  pageCollection(preview: $preview) {
+    total
+    items {
+      ...EntryParts
+      title
+      name
+      slug
+      seo(preview: $preview) {
+        ...EntryParts
+        name
+        title
+        description
+        keywords
+        noIndex
+        noFollow
+      }
+      contentCollection(preview: $preview, limit: $pageTypeLimit) {
+        total
+        items {
+          ...EntryParts
+          name
+          contentCollection(preview: $preview, limit: $pageContentLimit) {
+            total
+            items {
+              ...EntryParts
+            }
+          }
+        }
+      }
+    }
+  }
+}

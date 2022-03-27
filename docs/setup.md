@@ -323,7 +323,7 @@
     loadEnvConfig(process.cwd(), dev);
     ```
 
-1. add custom schema loader ``
+1. add custom schema loader `lib/grpahql-codegen/schemaLoader.ts`
 
     ```ts
     import fetch from 'cross-fetch';

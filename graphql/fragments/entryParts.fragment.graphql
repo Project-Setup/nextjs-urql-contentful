@@ -1,0 +1,13 @@
+fragment EntryParts on Entry {
+  sys {
+    id
+    spaceId
+    environmentId
+  }
+  contentfulMetadata {
+    tags {
+      id
+      name
+    }
+  }
+}
