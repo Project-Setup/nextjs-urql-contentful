@@ -62,6 +62,7 @@
 1. add `.eslintrc.js`
 
     ```js
+    /** @type {import('eslint').Linter.Config} */
     module.exports = {
         extends: ['next', 'prettier', 'plugin:prettier/recommended'],
     };
@@ -92,7 +93,7 @@
 
 1. install jest and react-testing-library
     ```sh
-    pnpm i -D jest @testing-library/react @testing-library/jest-dom
+    pnpm i -D jest @jest/types @testing-library/react @testing-library/jest-dom
     ```
 1. add `__tests__/` folder
     ```sh
@@ -107,6 +108,7 @@
         dir: './',
     });
 
+    /** @type {import('@jest/types').Config.InitialOptions} */
     const customJestConfig = {
         rootDir: '../',
         setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],

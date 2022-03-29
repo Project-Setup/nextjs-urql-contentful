@@ -6,6 +6,7 @@ specifiers:
   '@graphql-codegen/typescript': ^2.4.7
   '@graphql-codegen/typescript-operations': ^2.3.4
   '@graphql-typed-document-node/core': ^3.1.1
+  '@jest/types': ^27.5.1
   '@next/env': ^12.1.0
   '@swc/core': ^1.2.160
   '@swc/register': ^0.1.10
@@ -56,6 +57,7 @@ devDependencies:
   '@graphql-codegen/typed-document-node': 2.2.7_graphql@16.3.0
   '@graphql-codegen/typescript': 2.4.7_graphql@16.3.0
   '@graphql-codegen/typescript-operations': 2.3.4_graphql@16.3.0
+  '@jest/types': 27.5.1
   '@swc/core': 1.2.160
   '@swc/register': 0.1.10_@swc+core@1.2.160
   '@testing-library/jest-dom': 5.16.2

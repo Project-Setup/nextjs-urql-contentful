@@ -33,6 +33,7 @@
     "@graphql-codegen/typed-document-node": "^2.2.7",
     "@graphql-codegen/typescript": "^2.4.7",
     "@graphql-codegen/typescript-operations": "^2.3.4",
+    "@jest/types": "^27.5.1",
     "@swc/core": "^1.2.160",
     "@swc/register": "^0.1.10",
     "@testing-library/jest-dom": "^5.16.2",
