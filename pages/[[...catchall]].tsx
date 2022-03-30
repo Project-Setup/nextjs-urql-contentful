@@ -23,7 +23,7 @@ import { WithUrqlClient, WithUrqlState } from 'next-urql';
 import { FC, useMemo } from 'react';
 
 export interface CatchallParsedUrlQuery extends ParsedUrlQuery {
-  catchall: string | string[];
+  catchall?: string | string[];
 }
 
 export interface PageProps {
@@ -66,7 +66,7 @@ export const getStaticPaths: GetStaticPaths<
         ...paths,
         {
           params: {
-            catchall: item.slug?.split('/'),
+            catchall: item.slug === 'index' ? undefined : item.slug?.split('/'),
           },
         },
       ];
